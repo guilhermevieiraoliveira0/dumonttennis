@@ -181,7 +181,7 @@ const Home = () => {
                 <h3>Unidade SMU</h3>
                 <Icon src="/icons/whatsapp_white.svg" alt="" />
               </WhatsappButton>
-              <WhatsappButton href="https://wa.me/5561992583009">
+              <WhatsappButton href="https://wa.me/5561994525535">
                 <h3>Unidade Lago Sul</h3>
                 <Icon src="/icons/whatsapp_white.svg" alt="" />
               </WhatsappButton>

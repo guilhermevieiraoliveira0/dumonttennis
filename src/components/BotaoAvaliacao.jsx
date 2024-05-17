@@ -12,7 +12,7 @@ import { X } from "lucide-react";
 
 const BotaoContainer = styled.div`
   width: 100vw;
-  height: auto;
+  max-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,7 +102,6 @@ const BotaoAvaliacao = ({
       )}
       <Botao>
         <TextoMenor>Clique para</TextoMenor>
-        <br />
         <TextoMaior>MARCAR SUA AVALIAÇÃO</TextoMaior>
       </Botao>
     </BotaoContainer>

@@ -104,7 +104,6 @@ const Iate = () => {
         </p>
       </InfosContainer>
       <BotaoAvaliacao assefaz={false} iate={true} lagosul={false} smu={false} />
-
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>

@@ -84,7 +84,7 @@ const Footer = ({ horario }) => {
             <LinkFooter to="/unidade/lagosul" onClick={scrollToTop}>
               Lago Sul
             </LinkFooter>
-            <p>(61) 99258-3009</p>
+            <p>(61) 99452-5535</p>
           </UnidadeFootContainer>
           <UnidadeFootContainer>
             <LinkFooter to="/unidade/assefaz" onClick={scrollToTop}>

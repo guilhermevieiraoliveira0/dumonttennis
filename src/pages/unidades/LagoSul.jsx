@@ -145,7 +145,7 @@ const LagoSul = () => {
           Cidade: Brasília <br />
           Bairro: Lago Sul
           <br />
-          Telefone: (61) 99138 6671 | (61) 3366-3338 | (61) 99258-3009
+          Telefone: (61) 99138 6671 | (61) 3366-3338 | (61) 99452-5535
           <br />
           <br />
           <div>

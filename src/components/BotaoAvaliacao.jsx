@@ -85,7 +85,7 @@ const BotaoAvaliacao = ({
                 </WhatsappButton>
               )}
               {lagosul && (
-                <WhatsappButton href="https://wa.me/5561992583009">
+                <WhatsappButton href="https://wa.me/61994525535">
                   <h3>Unidade Lago Sul</h3>
                   <Icon src="/icons/whatsapp_white.svg" alt="" />
                 </WhatsappButton>

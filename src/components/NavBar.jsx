@@ -159,7 +159,7 @@ function NavBar() {
       {isMobile ? (
         <NavBarMobileDiv>
           <NavLink to="/">
-            <Logo src="/logos/logo_amarela.png" alt="Logo" />
+            <Logo src="/logos/logo_amarela.svg" alt="Logo" />
           </NavLink>
 
           {isMenuOpen && (
@@ -182,7 +182,7 @@ function NavBar() {
       ) : (
         <NavBarContainer>
           <NavLink to="/">
-            <img src="/logos/logo_amarela.png" alt="" />
+            <img src="/logos/logo_amarela.svg" alt="" />
           </NavLink>
           <AnimatedNavBarContainer style={contentSpring}>
             <StyledLink to="/unidades">UNIDADES</StyledLink>

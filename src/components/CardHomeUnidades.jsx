@@ -94,7 +94,7 @@ const CardHomeUnidades = ({ image, label, unidade }) => {
   };
   return (
     <CardContainer>
-      <Imagem src={image} alt="" />
+      <Imagem src={image} loading="lazy" alt="" />
       <FooterCard>
         <InfosContainer>
           <ParagraphUnidade>UNIDADE</ParagraphUnidade>

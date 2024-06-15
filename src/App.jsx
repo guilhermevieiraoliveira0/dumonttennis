@@ -13,10 +13,35 @@ import Layout from "./pages/Layout.jsx";
 import DumontKids from "./pages/modalidades/DumontKids.jsx";
 import Unidades from "./pages/Unidades";
 import ClubeDoExercito from "./pages/unidades/ClubeDoExercito.jsx";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <div>
+      <Helmet>
+        <title>Home - Dumont Tênis</title>
+        <script type="application/ld+json">
+          {`
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "SportsClub",
+                            "name": "Dumont Tênis",
+                            "url": "https://www.dumonttennis.com.br",
+                            "logo": "https://www.dumonttennis.com.br/logos/logo_amarela.svg",
+                            "description": "Escola de tênis com mais de 30 anos de tradição, oferecendo treinamento competitivo e cursos em várias unidades em Brasília.",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": "Iate Clube de Brasília",
+                                "addressLocality": "Brasília",
+                                "addressRegion": "DF",
+                                "postalCode": "70200-000",
+                                "addressCountry": "BR"
+                            },
+                            "telephone": "+55-61-98127-0990"
+                        }
+                    `}
+        </script>
+      </Helmet>
       <Router>
         <Routes>
           <Route

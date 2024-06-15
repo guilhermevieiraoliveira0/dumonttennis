@@ -112,9 +112,7 @@ const Bar = styled.div`
   transform-origin: center;
 `;
 
-// const Logo = styled.img`
-//   width: 50vw;
-// `;
+const Logo = styled.img``;
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -165,8 +163,13 @@ function NavBar() {
           {isMenuOpen && (
             <MenuMobile isOpen={isMenuOpen} onMenuItemClick={toggleMenu} />
           )}
-          <HamburguerButton aria-label="Menu" name="Botão Menu" isOpen={isMenuOpen} onClick={toggleIcon}>
-            <Bar 
+          <HamburguerButton
+            aria-label="Menu"
+            name="Botão Menu"
+            isOpen={isMenuOpen}
+            onClick={toggleIcon}
+          >
+            <Bar
               style={{
                 transform: isX ? "rotate(45deg) translate(7px, 6px)" : "none",
               }}

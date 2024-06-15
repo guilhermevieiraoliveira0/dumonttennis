@@ -97,7 +97,7 @@ const CardHomeUnidades = ({ image,srcSet, label, unidade }) => {
       <Imagem
         src={image}
         srcSet={srcSet}
-        sizes="(max-width: 600px) 300px, (max-width: 1200px) 600px, 1200px"
+        sizes="(max-width: 600px) 300px, 1200px"
         alt="Descrição da imagem"
       />
       <FooterCard>

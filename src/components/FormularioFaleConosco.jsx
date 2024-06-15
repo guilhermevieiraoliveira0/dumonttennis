@@ -9,7 +9,8 @@ const FaleConosco = styled.div`
   gap: 32px;
   justify-content: center;
   text-align: center;
-  & h1 {
+  & p {
+    font-weight: bold;
     font-size: 30px;
   }
   @media screen and (min-width: 768px) {
@@ -82,7 +83,7 @@ const BotaoSubmitForm = styled.button`
 const FormularioFaleConosco = () => {
   return (
     <FaleConosco aria-label="Formulário Fale Conosco">
-      <h1 id="formTitle">FALE CONOSCO</h1>
+      <p id="formTitle">FALE CONOSCO</p>
       <FormContainer aria-labelledby="formTitle">
         <h3>Preencha o formulário abaixo.</h3>
         <div>

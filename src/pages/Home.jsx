@@ -227,6 +227,7 @@ const Home = () => {
               <ImageContainer>
                 <CardHomeUnidades
                   image="/iate/estrutura/estrutura_iate10.jpeg"
+                  srcSet="iate/estrutura/estrutura_iate10-300.jpeg 300w"
                   label="IATE CLUBE DE BRASÍLIA"
                   unidade="iate"
                 />

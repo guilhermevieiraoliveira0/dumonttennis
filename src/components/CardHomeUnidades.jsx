@@ -85,7 +85,7 @@ const Imagem = styled.img`
 `;
 
 // eslint-disable-next-line react/prop-types
-const CardHomeUnidades = ({ image, label, unidade }) => {
+const CardHomeUnidades = ({ image,srcSet, label, unidade }) => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -94,7 +94,12 @@ const CardHomeUnidades = ({ image, label, unidade }) => {
   };
   return (
     <CardContainer>
-      <Imagem src={image} loading="lazy" alt="" />
+      <Imagem
+        src={image}
+        srcSet={srcSet}
+        sizes="(max-width: 600px) 300px, (max-width: 1200px) 600px, 1200px"
+        alt="Descrição da imagem"
+      />
       <FooterCard>
         <InfosContainer>
           <ParagraphUnidade>UNIDADE</ParagraphUnidade>

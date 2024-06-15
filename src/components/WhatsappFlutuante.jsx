@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import styled from "styled-components";
 
 const BackgroundContainer = styled.div`
@@ -98,8 +98,21 @@ export const WhatsappButton = styled.a`
     background-color: #32b863;
   }
 `;
+
 const WhatsappFlutuante = () => {
   const [modal, setModal] = useState(false);
+
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
+  // Gerencia o foco ao abrir/fechar o modal
+  useEffect(() => {
+    if (modal) {
+      document.getElementById('closeModalButton').focus();
+    }
+  }, [modal]);
+
   return (
     <>
       {modal && (
@@ -108,39 +121,97 @@ const WhatsappFlutuante = () => {
             <HeaderModal>
               <h3>Aperte na unidade de interesse.</h3>
               <X
+                id="closeModalButton"
                 size={32}
-                onClick={() => setModal(!modal)}
+                onClick={toggleModal}
                 style={{ cursor: "pointer" }}
+                aria-label="Fechar modal"
               />
             </HeaderModal>
             <BodyModal>
               <WhatsappButton href="https://wa.me/5561981270990">
                 <h3>Unidade Iate</h3>
-                <Icon src="/icons/whatsapp_white.svg" alt="" />
+                <Icon src="/icons/whatsapp_white.svg" alt="Ícone do WhatsApp" />
               </WhatsappButton>
               <WhatsappButton href="https://wa.me/5561984650881">
                 <h3>Unidade SMU</h3>
-                <Icon src="/icons/whatsapp_white.svg" alt="" />
+                <Icon src="/icons/whatsapp_white.svg" alt="Ícone do WhatsApp" />
               </WhatsappButton>
               <WhatsappButton href="https://wa.me/61994525535">
                 <h3>Unidade Lago Sul</h3>
-                <Icon src="/icons/whatsapp_white.svg" alt="" />
+                <Icon src="/icons/whatsapp_white.svg" alt="Ícone do WhatsApp" />
               </WhatsappButton>
               <WhatsappButton href="https://wa.me/5561992582411">
                 <h3>Unidade Assefaz</h3>
-                <Icon src="/icons/whatsapp_white.svg" alt="" />
+                <Icon src="/icons/whatsapp_white.svg" alt="Ícone do WhatsApp" />
               </WhatsappButton>
             </BodyModal>
           </ModalContainer>
         </BackgroundModal>
       )}
       <BackgroundContainer>
-        <BotaoContainer onClick={() => setModal(!modal)}>
-          <Icon src="/icons/whatsapp_white.svg" alt="" />
+        <BotaoContainer
+          aria-label="Abrir chat do WhatsApp"
+          title="Abrir chat do WhatsApp"
+          onClick={toggleModal}
+          tabIndex="0"  // Assegura que o botão seja acessível via teclado
+        >
+          <Icon src="/icons/whatsapp_white.svg" alt="Ícone do WhatsApp" />
         </BotaoContainer>
       </BackgroundContainer>
     </>
   );
 };
+
+
+// const WhatsappFlutuante = () => {
+//   const [modal, setModal] = useState(false);
+//   return (
+//     <>
+//       {modal && (
+//         <BackgroundModal>
+//           <ModalContainer>
+//             <HeaderModal>
+//               <h3>Aperte na unidade de interesse.</h3>
+//               <X
+//                 size={32}
+//                 onClick={() => setModal(!modal)}
+//                 style={{ cursor: "pointer" }}
+//               />
+//             </HeaderModal>
+//             <BodyModal>
+//               <WhatsappButton href="https://wa.me/5561981270990">
+//                 <h3>Unidade Iate</h3>
+//                 <Icon src="/icons/whatsapp_white.svg" alt="" />
+//               </WhatsappButton>
+//               <WhatsappButton href="https://wa.me/5561984650881">
+//                 <h3>Unidade SMU</h3>
+//                 <Icon src="/icons/whatsapp_white.svg" alt="" />
+//               </WhatsappButton>
+//               <WhatsappButton href="https://wa.me/61994525535">
+//                 <h3>Unidade Lago Sul</h3>
+//                 <Icon src="/icons/whatsapp_white.svg" alt="" />
+//               </WhatsappButton>
+//               <WhatsappButton href="https://wa.me/5561992582411">
+//                 <h3>Unidade Assefaz</h3>
+//                 <Icon src="/icons/whatsapp_white.svg" alt="" />
+//               </WhatsappButton>
+//             </BodyModal>
+//           </ModalContainer>
+//         </BackgroundModal>
+//       )}
+//       <BackgroundContainer>
+//         <BotaoContainer
+//           aria-label="WhatsApp"
+//           name="Whatsapp"
+//           title="Whatsapp"
+//           onClick={() => setModal(!modal)}
+//         >
+//           <Icon src="/icons/whatsapp_white.svg" alt="" />
+//         </BotaoContainer>
+//       </BackgroundContainer>
+//     </>
+//   );
+// };
 
 export default WhatsappFlutuante;

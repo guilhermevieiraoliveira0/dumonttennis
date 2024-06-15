@@ -81,22 +81,33 @@ const BotaoSubmitForm = styled.button`
 
 const FormularioFaleConosco = () => {
   return (
-    <FaleConosco>
-      <h1>FALE CONOSCO</h1>
-      <FormContainer>
+    <FaleConosco aria-label="Formulário Fale Conosco">
+      <h1 id="formTitle">FALE CONOSCO</h1>
+      <FormContainer aria-labelledby="formTitle">
         <h3>Preencha o formulário abaixo.</h3>
         <div>
-          <Input type="text" placeholder="Digite seu nome" />
-          <Input type="email" placeholder="Digite seu melhor email" />{" "}
-          <Input type="tel" placeholder="Digite seu telefone" />{" "}
-          <Select>
-            <option value="default">Selecione a unidade de interesse</option>
+          <label htmlFor="nome">Nome:</label>
+          <Input id="nome" type="text" placeholder="Digite seu nome" />
+          <label htmlFor="email">Email:</label>
+          <Input
+            id="email"
+            type="email"
+            placeholder="Digite seu melhor email"
+          />
+          <label htmlFor="telefone">Telefone:</label>
+          <Input id="telefone" type="tel" placeholder="Digite seu telefone" />
+          <label htmlFor="unidade">Unidade de Interesse:</label>
+          <Select id="unidade" defaultValue="default">
+            <option disabled value="default">
+              Selecione a unidade de interesse
+            </option>
             <option value="smu">Clube do Exército- SMU</option>
             <option value="iate">Iate Clube de Brasília</option>
             <option value="assefaz">Clube Olímpico Assefaz</option>
             <option value="lagoSul">Unidade Lago Sul</option>
           </Select>
-          <TextArea placeholder="Digite sua mensagem" />
+          <label htmlFor="mensagem">Mensagem:</label>
+          <TextArea id="mensagem" placeholder="Digite sua mensagem" />
         </div>
         <BotaoSubmitForm>ENVIAR</BotaoSubmitForm>
       </FormContainer>

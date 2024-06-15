@@ -165,8 +165,8 @@ function NavBar() {
           {isMenuOpen && (
             <MenuMobile isOpen={isMenuOpen} onMenuItemClick={toggleMenu} />
           )}
-          <HamburguerButton isOpen={isMenuOpen} onClick={toggleIcon}>
-            <Bar
+          <HamburguerButton aria-label="Menu" name="Botão Menu" isOpen={isMenuOpen} onClick={toggleIcon}>
+            <Bar 
               style={{
                 transform: isX ? "rotate(45deg) translate(7px, 6px)" : "none",
               }}

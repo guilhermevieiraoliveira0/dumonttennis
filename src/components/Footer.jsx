@@ -122,8 +122,8 @@ const Footer = ({ horario }) => {
       </InfosFooterContainer>
       <FooterFooter>
         <SocialContainer>
-          <Link to="https://www.instagram.com/dumonttennis/">
-            <img src="/icons/instagram1.svg" width="36px" alt="" />
+          <Link to="https://www.instagram.com/dumonttennis/" aria-label="instagram" >
+            <img src="/icons/instagram1.svg" width="36px" alt="instagram logo" />
           </Link>
         </SocialContainer>
         <img src="/logos/logo_preta.png" alt="" />

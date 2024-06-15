@@ -112,9 +112,9 @@ const Bar = styled.div`
   transform-origin: center;
 `;
 
-const Logo = styled.img`
-  width: 50vw;
-`;
+// const Logo = styled.img`
+//   width: 50vw;
+// `;
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -17,7 +17,7 @@ const Layout = ({ children, horario }) => {
       <NavBar />
       <WhatsappFlutuante />
       <WrapperContainer>{children}</WrapperContainer>
-      <FormularioFaleConosco />
+      {/* <FormularioFaleConosco /> */}
       <Footer horario={horario} />
     </div>
   );

@@ -150,13 +150,13 @@ const Iate = () => {
           <br />
           <div>
             <HorariosContainer>
-              <h4>Horário de Funcionamento</h4>
+              <h4>Horário das Aulas</h4>
               <p>Segunda à sexta</p>
               <h4>7h às 21h</h4>
             </HorariosContainer>
             <br />
             <HorariosContainer>
-              <h4>Horário de Atendimento</h4>
+              <h4>Atendimento da Secretaria</h4>
               <p>Segunda à sexta</p>
               <h4>8h às 18h</h4>
             </HorariosContainer>

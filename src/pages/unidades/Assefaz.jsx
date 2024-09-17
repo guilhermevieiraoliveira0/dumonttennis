@@ -170,7 +170,7 @@ const Assefaz = () => {
           <br />
           <div>
             <HorariosContainer>
-              <h4>Horário de Funcionamento</h4>
+              <h4>Horário das Aulas</h4>
               <p>Segunda à sexta</p>
               <h4>7h às 21h</h4>
             </HorariosContainer>
@@ -180,9 +180,17 @@ const Assefaz = () => {
             </HorariosContainer>
             <br />
             <HorariosContainer>
-              <h4>Horário de Atendimento</h4>
-              <p>Segunda à sexta</p>
-              <h4>8h às 18h</h4>
+              <h4>Atendimento da Secretaria</h4>
+              <p>Segunda à quinta</p>
+              <h4>10h às 20h</h4>
+            </HorariosContainer>
+            <HorariosContainer>
+              <p>Sexta-Feira</p>
+              <h4>9h às 19h</h4>
+            </HorariosContainer>
+            <HorariosContainer>
+              <p>Sábado</p>
+              <h4>8h às 12h</h4>
             </HorariosContainer>
           </div>
           <br />

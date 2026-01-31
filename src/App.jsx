@@ -124,14 +124,14 @@ function App() {
               </Layout>
             }
           />
-          <Route
+          {/* <Route
             path="/unidade/assefaz"
             element={
               <Layout horario={false}>
                 <Assefaz />
               </Layout>
             }
-          />
+          /> */}
           <Route
             path="/unidade/smu"
             element={

@@ -8,7 +8,7 @@ const AulasGrupo = () => {
     <ModalidadesLayout
       title="AULAS EM GRUPO"
       pathCapa="/modalidades/aulasGrupo/aula_grupo2.jpeg"
-      assefaz={true}
+      // assefaz={true}
       iate={true}
       lagosul={true}
       smu={true}

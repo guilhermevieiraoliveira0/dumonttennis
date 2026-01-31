@@ -44,8 +44,7 @@ const Escola = () => {
         competitivo. Com mais de 30 anos em Brasília e sede no Iate Clube de
         Brasília, desenvolveu um sistema de aprendizado que combina qualidade de
         ensino, prática e teoria, sendo essa sua marca registrada. Agora, com
-        unidades também no Clube do Exército no Setor Militar Urbano, no Clube
-        Olímpico Assefaz e na QI 23 do Lago Sul, a Dumont Tênis oferece a todos
+        unidades também no Clube do Exército no Setor Militar Urbano e na QI 23 do Lago Sul, a Dumont Tênis oferece a todos
         os interessados a oportunidade de conhecer, aprender, jogar e se
         divertir com esse esporte tão saudável.
       </TextSobre>

@@ -35,7 +35,7 @@ const Unidades = () => {
         individual={true}
         unidade="smu"
       />
-      <CardUnidades
+      {/* <CardUnidades
         label="CLUBE OLÍMPICO ASSEFAZ"
         contato="(61) 99258-2411"
         image="/assefaz/estrutura/estrutura_assefaz11.jpeg"
@@ -43,7 +43,7 @@ const Unidades = () => {
         beach={true}
         individual={true}
         unidade="assefaz"
-      />
+      /> */}
       <CardUnidades
         label="LAGO SUL"
         contato="(61) 99452-5535"

@@ -9,7 +9,7 @@ const DumontKids = () => {
     <ModalidadesLayout
       title="DUMONT KIDS"
       pathCapa="/modalidades/dumontkids/dumontkids2.jpeg"
-      assefaz={true}
+      // assefaz={true}
       iate={true}
       lagosul={true}
       smu={true}

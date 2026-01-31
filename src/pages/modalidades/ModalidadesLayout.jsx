@@ -51,7 +51,7 @@ const ModalidadesLayout = ({
   pathCapa,
   iate,
   smu,
-  assefaz,
+  // assefaz,
   lagosul,
 }) => {
   return (
@@ -71,7 +71,7 @@ const ModalidadesLayout = ({
       <BotaoAvaliacao
         iate={iate}
         smu={smu}
-        assefaz={assefaz}
+        // assefaz={assefaz}
         lagosul={lagosul}
       />
     </ModalidadeContainer>

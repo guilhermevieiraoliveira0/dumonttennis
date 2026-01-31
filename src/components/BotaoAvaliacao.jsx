@@ -54,7 +54,7 @@ const TextoMaior = styled.span`
 const BotaoAvaliacao = ({
   iate = true,
   smu = true,
-  assefaz = true,
+  // assefaz = true,
   lagosul = true,
 }) => {
   const [open, setOpen] = useState(false);
@@ -90,12 +90,12 @@ const BotaoAvaliacao = ({
                   <Icon src="/icons/whatsapp_white.svg" alt="" />
                 </WhatsappButton>
               )}
-              {assefaz && (
+              {/* {assefaz && (
                 <WhatsappButton href="https://wa.me/5561992582411">
                   <h3>Unidade Assefaz</h3>
                   <Icon src="/icons/whatsapp_white.svg" alt="" />
                 </WhatsappButton>
-              )}
+              )} */}
             </BodyModal>
           </ModalContainer>
         </BackgroundModal>

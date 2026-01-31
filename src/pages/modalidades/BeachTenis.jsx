@@ -9,7 +9,7 @@ const BeachTenis = () => {
     <ModalidadesLayout
       // title="BEACH TENNIS"
       // pathCapa="/modalidades/dumontkids/dumontkids2.jpeg"
-      assefaz={true}
+      // assefaz={true}
       iate={false}
       lagosul={true}
       smu={false}
@@ -17,11 +17,10 @@ const BeachTenis = () => {
       <InfosContainer>
         <Title>BEACH TENNIS</Title>
         <p>
-          Oferecemos aulas de Beach Tennis em grupo no Lago Sul e no Clube
-          Olímpico Assefaz, com turmas de até 6 pessoas, incluindo escolinha
-          para crianças. As aulas trazem uma abordagem de alguns itens básicos
-          como aquecimento, alongamento, técnica, alimentação e jogos, adequadas
-          para todas as idades.
+          Oferecemos aulas de Beach Tennis em grupo no Lago Sul, com turmas de
+          até 6 pessoas, incluindo escolinha para crianças. As aulas trazem uma
+          abordagem de alguns itens básicos como aquecimento, alongamento,
+          técnica, alimentação e jogos, adequadas para todas as idades.
         </p>
       </InfosContainer>
       {/* <ImageContainer

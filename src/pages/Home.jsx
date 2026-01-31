@@ -185,10 +185,10 @@ const Home = () => {
                 <h3>Unidade Lago Sul</h3>
                 <Icon src="/icons/whatsapp_white.svg" alt="" />
               </WhatsappButton>
-              <WhatsappButton href="https://wa.me/5561992582411">
+              {/* <WhatsappButton href="https://wa.me/5561992582411">
                 <h3>Unidade Assefaz</h3>
                 <Icon src="/icons/whatsapp_white.svg" alt="" />
-              </WhatsappButton>
+              </WhatsappButton> */}
             </BodyModal>
           </ModalContainer>
         </BackgroundModal>
@@ -217,7 +217,7 @@ const Home = () => {
             autoplay={{ delay: 5000 }}
             breakpoints={{
               768: {
-                slidesPerView: 4,
+                slidesPerView: 3,
                 spaceBetween: 30,
               },
             }}
@@ -243,7 +243,7 @@ const Home = () => {
               </ImageContainer>
             </SwiperSlide>
 
-            <SwiperSlide className="swiper-slide">
+            {/* <SwiperSlide className="swiper-slide">
               <ImageContainer>
                 <CardHomeUnidades
                   image="/assefaz/estrutura/estrutura_assefaz2.jpeg"
@@ -251,7 +251,7 @@ const Home = () => {
                   unidade="assefaz"
                 />
               </ImageContainer>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide className="swiper-slide">
               <ImageContainer>
                 <CardHomeUnidades

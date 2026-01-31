@@ -104,7 +104,7 @@ const FormularioFaleConosco = () => {
             </option>
             <option value="smu">Clube do Exército- SMU</option>
             <option value="iate">Iate Clube de Brasília</option>
-            <option value="assefaz">Clube Olímpico Assefaz</option>
+            {/* <option value="assefaz">Clube Olímpico Assefaz</option> */}
             <option value="lagoSul">Unidade Lago Sul</option>
           </Select>
           <label htmlFor="mensagem">Mensagem:</label>

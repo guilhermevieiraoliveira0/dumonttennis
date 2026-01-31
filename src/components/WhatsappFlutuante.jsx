@@ -141,10 +141,10 @@ const WhatsappFlutuante = () => {
                 <h3>Unidade Lago Sul</h3>
                 <Icon src="/icons/whatsapp_white.svg" alt="Ícone do WhatsApp" />
               </WhatsappButton>
-              <WhatsappButton href="https://wa.me/5561992582411">
+              {/* <WhatsappButton href="https://wa.me/5561992582411">
                 <h3>Unidade Assefaz</h3>
                 <Icon src="/icons/whatsapp_white.svg" alt="Ícone do WhatsApp" />
-              </WhatsappButton>
+              </WhatsappButton> */}
             </BodyModal>
           </ModalContainer>
         </BackgroundModal>

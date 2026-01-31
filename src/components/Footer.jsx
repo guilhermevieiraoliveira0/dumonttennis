@@ -86,12 +86,12 @@ const Footer = ({ horario }) => {
             </LinkFooter>
             <p>(61) 99452-5535</p>
           </UnidadeFootContainer>
-          <UnidadeFootContainer>
+          {/* <UnidadeFootContainer>
             <LinkFooter to="/unidade/assefaz" onClick={scrollToTop}>
               Clube Olímpico Assefaz
             </LinkFooter>
             <p>(61) 99258-2411</p>
-          </UnidadeFootContainer>
+          </UnidadeFootContainer> */}
         </UnidadesFooterContainer>
 
         {horario && (

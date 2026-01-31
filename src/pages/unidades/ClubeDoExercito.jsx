@@ -109,7 +109,7 @@ const ClubeDoExercito = () => {
           Marque sua avaliação hoje mesmo!
         </p>
       </InfosContainer>
-      <BotaoAvaliacao assefaz={false} iate={false} lagosul={false} smu={true} />
+      <BotaoAvaliacao  iate={false} lagosul={false} smu={true} />
       <CarrosselEstrutura unidade="smu" fotos={fotos} />
       <UnidadeOferece>
         <h2>A unidade oferece:</h2>

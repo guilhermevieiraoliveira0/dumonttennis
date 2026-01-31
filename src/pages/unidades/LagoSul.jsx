@@ -106,7 +106,7 @@ const LagoSul = () => {
           Marque sua avaliação hoje mesmo!
         </p>
       </InfosContainer>
-      <BotaoAvaliacao assefaz={false} iate={false} lagosul={true} smu={false} />
+      <BotaoAvaliacao iate={false} lagosul={true} smu={false} />
 
       <CarrosselEstrutura unidade="iate" fotos={fotos} />
       <UnidadeOferece>
